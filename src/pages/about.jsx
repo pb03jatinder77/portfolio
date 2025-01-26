@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/logos/jatinder-php-react-nodejs.webp'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Victoria Jordan</title>
+        <title>About - Jatinder Sandhu</title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast in Austin, TX."
+          content="I'm Jatinder Sandhu. A leader, artist, and frontend enthusiast in Austin, TX."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,35 +61,21 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Victoria. A leader, artist, and frontend enthusiast in
-              Austin, TX.
+              I&apos;m Jatinder Sandhu. A Full Stack Developer in Mohali, Panjab, India.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I&apos;m a non-traditional first-generation student pursuing a
-                Bachelor of Science in Computer Science. I&apos;m entering my
-                senior year at Texas State University and I am the founder and
-                president of Girls Who Code TXST. My mission is to empower women
-                and non-binary students to take the reins of their independence
-                and become the leaders they have always admired.
+                Full Stack Developer with more than 5 years of expertise in web development. My experience is in developing powerful apps with PHP, React, Nodejs, Laravel, and WordPress. I've spent my career developing efficient, scalable solutions that have a significant influence on the digital world.
               </p>
               <p>
-                I&apos;ve traveled extensively through Southeast Asia and lived
-                in Shanghai, China for a year while teaching English. In 2020, I
-                launched an e-commerce store selling stickers and prints of my
-                artwork to generate donations for various organizations
-                supporting Black and transgender communities.
+                Throughout my professional career, I've successfully executed a number of complicated projects, ranging from e-commerce platforms to enterprise-level apps. My methodology combines technical competence with a thorough grasp of business requirements, ensuring that each solution not only functions perfectly but also adds actual value to users and stakeholders.
               </p>
               <p>
-                This past summer, I was a frontend engineer intern at a startup
-                called F*** You Pay Me, creating an app to help influencers (a
-                female-majority community) gain pay equality and fair treatment
-                when making deals with brands.
+                I specialize in creating high-performance online apps, RESTful APIs, and responsive front-ends. My technological toolset includes contemporary frameworks and technologies, and I continuously study and adapt to stay ahead in the ever-changing digital scene. I take pleasure in producing clean, maintainable code that follows industry best practices.
               </p>
               <p>
-                In my free time, you can find me rock climbing, working out,
-                dancing, or at home spending quality time with my two
-                cockatiels.
+                When not coding, I contribute to open-source projects, mentor junior developers, and explore new technologies.
+                I am passionate about information sharing and community-driven development.
               </p>
             </div>
           </div>
@@ -102,25 +88,25 @@ export default function About() {
                 Follow on Instagram
               </SocialLink> */}
               <SocialLink
-                href="https://github.com/vjordan-cs"
+                href="https://github.com/pb03jatinder77"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="https://linkedin.com/in/victoria-jordan01/"
+                href="https://www.linkedin.com/in/jatindersingh667/"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:vjordan.cs@gmail.com"
+                href="mailto:jatinder17966@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                vjordan.cs@gmail.com
+                jatinder17966@gmail.com
               </SocialLink>
             </ul>
           </div>

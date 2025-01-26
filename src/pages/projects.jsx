@@ -71,7 +71,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Victoria Jordan</title>
+        <title>Projects - Jatinder Sandhu</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

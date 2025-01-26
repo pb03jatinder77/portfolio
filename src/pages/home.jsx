@@ -221,9 +221,8 @@ function Resume() {
               <dt className="sr-only">Date</dt>
               <dd
                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${
-                  role.end.label ?? role.end
-                }`}
+                aria-label={`${role.start.label ?? role.start} until ${role.end.label ?? role.end
+                  }`}
               >
                 <time dateTime={role.start.dateTime ?? role.start}>
                   {role.start.label ?? role.start}
@@ -276,45 +275,32 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Victoria Jordan - Leader, artist, and frontend enthusiast</title>
+        <title>Jatinder Sandhu | Full Stack Developer | PHP, React,Nodejs, Laravel Expert</title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast"
+          content="Experienced Full Stack Developer with expertise in PHP, React,Nodejs, Next.js, Laravel, and WordPress. Developing scalable web apps using cutting-edge technology and best practices. "
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Leader, artist, and frontend enthusiast in Austin, TX.
+            Full Stack Developer specializing in PHP, React, and Laravel
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Victoria, a computer science student and the Founder and
-            President of Girls Who Code at Texas State University. I am
-            passionate about frontend engineering, empowering women in tech, and
-            creating inclusive spaces for beginners in computer science.
+            I&apos;m Jatinder Sandhu, an experienced Full Stack Developer with knowledge in PHP, React,Nodejs, Laravel, and WordPress. I have a great gift for construction.
+            Our focus is on developing scalable web apps with good speed. I stay current with technology and adhere to industry standards in my delivery. I have gained experience with complicated web development projects, API connections, and responsive front-end designs.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/vjordan-cs"
+              href="https://github.com/pb03jatinder77"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/victoria-jordan01/"
+              href="https://www.linkedin.com/in/jatindersingh667/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-
-            {/* <SocialLink
-              href="https://www.instagram.com/vjordan.cs/"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            /> */}
-            {/* <SocialLink
-              href="https://twitter.com/cs__victoria"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            /> */}
           </div>
         </div>
       </Container>

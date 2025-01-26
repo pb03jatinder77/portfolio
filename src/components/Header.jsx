@@ -7,6 +7,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 import { Fragment, useEffect, useRef } from 'react'
+import logo from '@/images/logos/jatinder-php-react-nodejs.webp'
 
 function CloseIcon(props) {
   return (
@@ -234,7 +235,7 @@ function Avatar({ large = false, className, ...props }) {
       {...props}
     >
       <Image
-        src={avatarImage}
+        src={logo}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
