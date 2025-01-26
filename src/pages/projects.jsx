@@ -4,12 +4,15 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import LUXORLIMO from '@/images/logos/LUXOR-LIMO-LOGO.png'
 import Lunanav from '@/images/logos/luna_by_nav.png'
+import LuinvictusfreightLogo from '@/images/logos/invictusfreight_logo.png'
+import WeddingLogo from '@/images/logos/wedding_logo.png'
+
 
 const projects = [
   {
     name: 'Luxorlimo Rental Service',
     description:
-      "A comprehensive web platform developed for a luxury transportation service operating across Ontario for over 3 years. ",
+      "Limousine rental services in Mississauga , Toronto & Brampton for weddings, proms, and corporate events. Experience luxury & comfort",
     link: {
       href: 'https://luxorlimo.ca/',
       label: 'Luxorlimo',
@@ -25,7 +28,28 @@ const projects = [
       label: 'Luna By Navneet & Navjot',
     },
     logo: Lunanav,
+  },{
+    name: 'InvictusFreight',
+    description:
+      "Backed by years of experience in the logistics industry, our team of experts excels in end-to-end supply chain management.Whether your company operates locally or internationally, we offer a full range of services, including scalable solutions designed to satisfy the demands of the modern, fast-paced market.Leading non-asset-based Third-Party Logistics (3PL) supplier Invictus Freight Logistics Inc.",
+    link: {
+      href: 'https://invictusfreight.com/',
+      label: 'InvictusFreight',
+    },
+    logo: LuinvictusfreightLogo,
   },
+  {
+    name: 'Wedding Pagdi Wale',
+    description:
+      'Our Pagdi/Turban Styles Morni Style Turban Patiala Shahi Turban Jodhpuri Style Pagdi Welcome To Wedding Pagdi Wale Welcome to Wedding Pagdi Wale, your go-to destination for premium quality wedding pagdi/turban tying services in Chandigarh & Mohali. With over a decade of experience, We have been providing exceptional turban tying services for grooms and wedding',
+    link: {
+      href: 'https://weddingpagdiwale.com/',
+      label: 'Wedding Pagdi Wale',
+    },
+    logo: WeddingLogo,
+  },
+
+
   // {
   //   name: 'OpenShuttle',
   //   description:
@@ -66,11 +90,11 @@ export default function Projects() {
         >
           {projects.map((project) => (
             <Card as="li" key={project.name}>
-              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 bg-[#9e9e9e14]">
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8 rounded-full"
+                  className="h-8 w-8 rounded-full object-contain"
                   unoptimized
                 />
               </div>
