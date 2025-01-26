@@ -7,22 +7,15 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
-  TwitterIcon,
-  InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
-import logoDell from '@/images/logos/dell.svg'
-import logoFYPM from '@/images/logos/fypm1.svg'
-import logoGWC from '@/images/logos/gwcLogo1.png'
-import logoTXST from '@/images/logos/txstStar.png'
-import halcyoncore from '@/images/logos/hc-logo.png'
-import amazonIcon from '@/images/logos/amazonlogo.png'
+import image1 from '@/images/photos/lunanav.png';
+import image2 from '@/images/photos/luxor_lim.png';
+import halcyoncore from '@/images/logos/hc-logo.png';
+import amazonIcon from '@/images/logos/amazonlogo.png';
+import Supervision from '@/images/logos/logo.svg';
+import Envyus_media from '@/images/logos/envyus_media_pvt_ltd_logo.jpeg';
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -142,54 +135,19 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Amazon',
-      title: 'Software Engineering Intern',
-      logo: amazonIcon,
-      start: 'May 2023',
-      end: 'Aug 2023',
-    },
-    {
-      company: 'HalcyonCore',
-      title: 'Co-Founder & Lead Engineer',
-      logo: halcyoncore,
-      start: 'March 2023',
+      company: 'Full Stack Developer',
+      title: 'SuperVisionIT Solutions',
+      logo: Supervision,
+      start: 'Aug 2020',
       end: 'Present',
     },
     {
-      company: 'Texas State VR Lab',
-      title: 'Virtual Reality Researcher',
-      logo: logoTXST,
-      start: 'Jan 2023',
-      end: 'Present',
-    },
-    {
-      company: 'Girls Who Code TXST',
-      title: 'Founder & President',
-      logo: logoGWC,
-      start: 'Feb 2022',
-      end: 'Present',
-    },
-    {
-      company: 'FYPM App',
-      title: 'Front End Engineer Intern',
-      logo: logoFYPM,
-      start: 'April 2022',
-      end: 'July 2022',
-    },
-    {
-      company: 'Dell Technologies',
-      title: 'Software Engineer Intern',
-      logo: logoDell,
-      start: 'June 2022',
-      end: 'Aug 2022',
-    },
-    {
-      company: 'Dell Technologies',
-      title: 'Software Engineer Intern',
-      logo: logoDell,
-      start: 'May 2021',
-      end: 'Aug 2021',
-    },
+      company: 'Envyus Media Pvt Ltd',
+      title: 'PHP Developer',
+      logo: Envyus_media,
+      start: 'Jun 2018',
+      end: 'Aug 2019',
+    }
   ]
 
   return (
@@ -250,7 +208,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image1, image2].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -275,19 +233,19 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Jatinder Sandhu | Full Stack Developer | PHP, React,Nodejs, Laravel Expert</title>
+        <title>Jatinder Sandhu | Full Stack Developer | PHP, React, Nodejs, Laravel Expert</title>
         <meta
           name="description"
-          content="Experienced Full Stack Developer with expertise in PHP, React,Nodejs, Next.js, Laravel, and WordPress. Developing scalable web apps using cutting-edge technology and best practices. "
+          content="Experienced Full Stack Developer with expertise in PHP, React, Nodejs, Next.js, Laravel, and WordPress. Developing scalable web apps using cutting-edge technology and best practices. "
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Full Stack Developer specializing in PHP, React, and Laravel
+            Full Stack Developer specializing in PHP, React, Nodejs and Laravel
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Jatinder Sandhu, an experienced Full Stack Developer with knowledge in PHP, React,Nodejs, Laravel, and WordPress. I have a great gift for construction.
+            I&apos;m Jatinder Sandhu, an experienced Full Stack Developer with knowledge in PHP, React, Nodejs, Laravel, and WordPress. I have a great gift for construction.
             Our focus is on developing scalable web apps with good speed. I stay current with technology and adhere to industry standards in my delivery. I have gained experience with complicated web development projects, API connections, and responsive front-end designs.
           </p>
           <div className="mt-6 flex gap-6">

@@ -1,51 +1,30 @@
 import Image from 'next/future/image'
 import Head from 'next/head'
-
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import youphoria from '@/images/logos/YOUphoria.png'
-import orb from '@/images/logos/orb.gif'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoHeart from '@/images/logos/gwc.png'
+import LUXORLIMO from '@/images/logos/LUXOR-LIMO-LOGO.png'
+import Lunanav from '@/images/logos/luna_by_nav.png'
 
 const projects = [
   {
-    name: 'YOUphoria: A comprehensive sex education app for teens',
+    name: 'Luxorlimo Rental Service',
     description:
-      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
+      "A comprehensive web platform developed for a luxury transportation service operating across Ontario for over 3 years. ",
     link: {
-      href: 'https://github.com/halcyonCore/youphoria',
-      label: 'GitHub',
+      href: 'https://luxorlimo.ca/',
+      label: 'Luxorlimo',
     },
-    logo: youphoria,
+    logo: LUXORLIMO,
   },
   {
-    name: 'Tailwind Animation Exploration',
+    name: 'Luna By Navneet & Navjot',
     description:
-      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
+      'This project is a fashion-focused website created to support a small business venture started by a friend. The goal is to establish an online presence that showcases their unique sense of style and carefully curated products. The website will serve as a platform for sharing their passion for fashion, connecting with like-minded customers, and building a loyal community around their brand.',
     link: {
-      href: 'https://tailwind-animation-exploration.vercel.app/',
-      label: 'tailwind-animation-exploration.vercel.app/',
+      href: 'https://lunanav.malwaland.in/',
+      label: 'Luna By Navneet & Navjot',
     },
-    logo: orb,
-  },
-  {
-    name: 'Girls Who Code TXST',
-    description:
-      "I've created the entire structure of our Girls Who Code chapter, including our website! It utilizes Stripe's API to accept donations that fund our events and activities.",
-    link: { href: 'http://gwc-txst.com', label: 'gwc-txst.com' },
-    logo: logoHeart,
-  },
-  {
-    name: 'Java vs. C++',
-    description:
-      'Creating an ad-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
-    link: {
-      href: 'https://cpp-vs-java.vercel.app/',
-      label: 'cpp-vs-java.vercel.app',
-    },
-    logo: logoAnimaginary,
+    logo: Lunanav,
   },
   // {
   //   name: 'OpenShuttle',
@@ -79,7 +58,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="A couple of my favorite personal projects."
-        intro="This summer, I learned about the trifecta that is React, Next.js, and TailwindCSS. I haven't looked back since!"
+        intro="This summer, I learned about the trifecta that is Wordpress,Php,React, Next.js, and TailwindCSS. I haven't looked back since!"
       >
         <ul
           role="list"
