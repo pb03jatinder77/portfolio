@@ -65,10 +65,10 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Full Stack Developer with more than 5 years of expertise in web development. My experience is in developing powerful apps with PHP, React, Nodejs, Laravel, and WordPress. I've spent my career developing efficient, scalable solutions that have a significant influence on the digital world.
+                Full Stack Developer with more than 5 years of expertise in web development. My experience is in developing powerful apps with PHP, React, Nodejs, Laravel, and WordPress. I&apos;ve spent my career developing efficient, scalable solutions that have a significant influence on the digital world.
               </p>
               <p>
-                Throughout my professional career, I've successfully executed a number of complicated projects, ranging from e-commerce platforms to enterprise-level apps. My methodology combines technical competence with a thorough grasp of business requirements, ensuring that each solution not only functions perfectly but also adds actual value to users and stakeholders.
+                Throughout my professional career, I&apos;ve successfully executed a number of complicated projects, ranging from e-commerce platforms to enterprise-level apps. My methodology combines technical competence with a thorough grasp of business requirements, ensuring that each solution not only functions perfectly but also adds actual value to users and stakeholders.
               </p>
               <p>
                 I specialize in creating high-performance online apps, RESTful APIs, and responsive front-ends. My technological toolset includes contemporary frameworks and technologies, and I continuously study and adapt to stay ahead in the ever-changing digital scene. I take pleasure in producing clean, maintainable code that follows industry best practices.
