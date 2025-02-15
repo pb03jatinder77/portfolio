@@ -8,8 +8,20 @@ import LuinvictusfreightLogo from '@/images/logos/invictusfreight_logo.png'
 import WeddingLogo from '@/images/logos/wedding_logo.png'
 import Trueholiday from '@/images/logos/trueholiday.webp'
 import Sandhustore from '@/images/logos/sandhustore.png'
+import SandhuDairy from '@/images/logos/sandhudairy.webp'
 
 const projects = [
+  {
+    name: 'Dairy',
+    description:
+      'A dedicated dairy website showcasing products with pricing, allowing customers to explore and purchase with ease.',
+    link: {
+      href: 'https://dairy.malwaland.in/',
+      label: 'Sandhu Dairy',
+    },
+    tag: 'Next.JS, React.js, MongoDB, Tailwind CSS',
+    logo: SandhuDairy,
+  },
   {
     name: 'Store Admin',
     description:
