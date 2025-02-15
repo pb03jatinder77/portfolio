@@ -6,9 +6,31 @@ import LUXORLIMO from '@/images/logos/LUXOR-LIMO-LOGO.png'
 import Lunanav from '@/images/logos/luna_by_nav.png'
 import LuinvictusfreightLogo from '@/images/logos/invictusfreight_logo.png'
 import WeddingLogo from '@/images/logos/wedding_logo.png'
-
+import Trueholiday from '@/images/logos/trueholiday.webp'
+import Sandhustore from '@/images/logos/sandhustore.png'
 
 const projects = [
+  {
+    name: 'Store Admin',
+    description:
+      'A simple store dashboard for managing stock efficiently.',
+    link: {
+      href: '#',
+      label: 'Sandhu Cement Store',
+    },
+    tag: 'React.js,Node.js,MongoDB,Tailwind CSS',
+    logo: Sandhustore,
+  },
+  {
+    name: "Admin",
+    description: "An intuitive admin dashboard for tracking and managing company progress efficiently.",
+    link: {
+      href: '#',
+      label: 'Company Admin',
+    },
+    tag: ' PHP,MySQL,Bootstrap,jQuery',
+    logo: Trueholiday,
+  },
   {
     name: 'Luxorlimo Rental Service',
     description:
@@ -17,7 +39,19 @@ const projects = [
       href: 'https://luxorlimo.ca/',
       label: 'Luxorlimo',
     },
+    tag: 'Wordpress,Elementor,PHP,Woocommerce',
     logo: LUXORLIMO,
+  },
+  {
+    name: 'InvictusFreight',
+    description:
+      "Backed by years of experience in the logistics industry, our team of experts excels in end-to-end supply chain management.Whether your company operates locally or internationally, we offer a full range of services, including scalable solutions designed to satisfy the demands of the modern, fast-paced market.Leading non-asset-based Third-Party Logistics (3PL) supplier Invictus Freight Logistics Inc.",
+    link: {
+      href: 'https://invictusfreight.com/',
+      label: 'InvictusFreight',
+    },
+    tag: 'Wordpress,Elementor,PHP',
+    logo: LuinvictusfreightLogo,
   },
   {
     name: 'Luna By Navneet & Navjot',
@@ -27,16 +61,8 @@ const projects = [
       href: 'https://lunanav.malwaland.in/',
       label: 'Luna By Navneet & Navjot',
     },
+    tag: 'Wordpress,PHP,Woocommerce',
     logo: Lunanav,
-  },{
-    name: 'InvictusFreight',
-    description:
-      "Backed by years of experience in the logistics industry, our team of experts excels in end-to-end supply chain management.Whether your company operates locally or internationally, we offer a full range of services, including scalable solutions designed to satisfy the demands of the modern, fast-paced market.Leading non-asset-based Third-Party Logistics (3PL) supplier Invictus Freight Logistics Inc.",
-    link: {
-      href: 'https://invictusfreight.com/',
-      label: 'InvictusFreight',
-    },
-    logo: LuinvictusfreightLogo,
   },
   {
     name: 'Wedding Pagdi Wale',
@@ -46,9 +72,10 @@ const projects = [
       href: 'https://weddingpagdiwale.com/',
       label: 'Wedding Pagdi Wale',
     },
+    tag: 'Wordpress,Elementor,PHP',
     logo: WeddingLogo,
   },
-
+  
 
   // {
   //   name: 'OpenShuttle',
@@ -81,8 +108,8 @@ export default function Projects() {
         />
       </Head>
       <SimpleLayout
-        title="A couple of my favorite personal projects."
-        intro="This summer, I learned about the trifecta that is Wordpress,Php,React, Next.js, and TailwindCSS. I haven't looked back since!"
+        title="A few of my favorite personal projects!"
+        intro="This summer, I dove into the powerful combination of WordPress, PHP, React, Next.js, and Tailwind CSS—and I haven't looked back since!"
       >
         <ul
           role="list"
@@ -101,6 +128,9 @@ export default function Projects() {
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <Card.Link href={project.link.href}>{project.name}</Card.Link>
               </h2>
+              <p className="relative z-10flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                <span className="">{project.tag}</span>
+              </p>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
