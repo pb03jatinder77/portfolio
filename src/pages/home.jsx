@@ -286,8 +286,7 @@ export default function Home({ articles }) {
             Full Stack Developer specializing in PHP, React, Nodejs and Laravel
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Jatinder Sandhu, an experienced Full Stack Developer with knowledge in PHP, React, Nodejs, Laravel, and WordPress. I have a great gift for construction.
-            Our focus is on developing scalable web apps with good speed. I stay current with technology and adhere to industry standards in my delivery. I have gained experience with complicated web development projects, API connections, and responsive front-end designs.
+            I&apos;m Jatinder Sandhu, an experienced Full Stack Developer with 4+ years of experience in PHP, React, Node.js, Laravel, and WordPress. I have a great gift for construction. Our focus is on developing scalable web apps with good speed. I stay current with technology and adhere to industry standards in my delivery. I have gained experience with complicated web development projects, API connections, and responsive front-end designs.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
