@@ -14,6 +14,7 @@ import image1 from '@/images/photos/lunanav.png';
 import image2 from '@/images/photos/luxor_lim.png';
 import image3 from '@/images/photos/invictus_freight.png';
 import image4 from '@/images/photos/weeding.png';
+import image5 from '@/images/photos/dairy_website.png';
 import halcyoncore from '@/images/logos/hc-logo.png';
 import amazonIcon from '@/images/logos/amazonlogo.png';
 import Supervision from '@/images/logos/logo.svg';
@@ -248,7 +249,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8 flex-wrap md:flex-nowrap">
-        {[image1, image2, image3, image4].map((image, imageIndex) => (
+        {[image5,image1, image2, image3, image4].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
